@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid hsl(0, 0%, 42%);
+    border-radius: 2%;
+    box-shadow: 10px 10px 0px 0px black;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    
+    
+    
+}
+.tag{
+    border:1px hidden hsl(0, 0%, 42%) ;
+    background-color:hsl(47, 88%, 63%) ;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: Figtree;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 10px;
+}
+.tag:hover{
+    border:1px hidden hsl(0, 0%, 42%) ;
+    background-color:hsl(29, 77%, 51%) ;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: Figtree;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 10px;
+}
+.card img.Header-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Published{
+    color:hsl(0, 2%, 20%) ;
+    font-family: Figtree;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+.HC{
+    font-family: Figtree;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.description{
+    color:hsl(0, 0%, 42%) ;
+    margin-top: 15px;
+    font-family: Figtree;
+    font-size: 0.9rem;
+}
+.author{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.author img{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    font-family: Figtree;
+    font-size: 0.8rem;
+    width: 100%;
+    font-weight: bold;
+}
